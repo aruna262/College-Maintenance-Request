@@ -1,0 +1,16 @@
+{
+  "name": "college-maintenance-backend",
+  "version": "1.0.0",
+  "description": "Backend API for College Maintenance Request System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
